@@ -1,0 +1,76 @@
+/*блок меню*/
+.container {
+    width: 1600px;
+    height: 2548px;
+    margin: 0;
+} 
+
+header {
+    width:100%;
+    height: 72px;
+    margin: 0;
+    display:flex;
+    align-items: center;
+}
+.buttons {
+    margin: 0;
+    padding: 0px 0px 0px 365px;
+    display: inline-block;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+}
+.head1 {
+    padding:0;
+    margin: 0;
+}
+.head2 {
+    padding-left: 35px;
+}
+.head3 {
+    padding-left: 35px;
+
+}
+.user {
+    padding-left: 68px;
+    width: 14px;
+    height: 14px;
+}
+.head4 {
+    padding-left: 6px;
+}
+
+.logo {
+    margin: 0;
+    padding: 19px 0px 19px 244px;
+}
+/*Авторський блок*/
+.mainpicture {
+    display:flex;
+    flex-direction: row;
+    width:1600px;
+    height:513px;
+    background-color: #296DCE;
+}
+.karp4picture {
+    position: absolute;
+    width:339px;
+    height: 479px;
+    margin: 0;
+    padding: 34px 0px 0px 942px;
+    
+}
+
+.karp4text {
+    box-sizing: border-box;
+    width: 622;
+    height: 184;
+}
+
+h1{ 
+    font-family: 'Roboto Slab', serif;
+    font-size: 38px;
+    margin: 0;
+    padding: 0;
+
+}
