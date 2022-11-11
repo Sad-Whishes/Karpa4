@@ -20,7 +20,7 @@ header {
     display:flex;
     align-items: center;
 }
-.buttons {
+.buttons{
     margin: 0;
     padding: 0px 0px 0px 365px;
     display: inline-block;
@@ -28,20 +28,22 @@ header {
     font-size: 16px;
     line-height: 19px;
 }
-a {
-    color: black;
-    text-decoration: none;
-}
+
 .head1 {
     padding:0;
     margin: 0;
+    color: black;
+    text-decoration: none;
 }
 .head2 {
     padding-left: 35px;
+    color: black;
+    text-decoration: none;
 }
 .head3 {
     padding-left: 35px;
-
+    color: black;
+    text-decoration: none;
 }
 .user {
     padding-left: 68px;
@@ -50,6 +52,8 @@ a {
 }
 .head4 {
     padding-left: 6px;
+    color: black;
+    text-decoration: none;
 }
 
 .logo {
@@ -67,11 +71,11 @@ a {
     background-image: url('../img/bcgrnd.png');
 }
 .karp4picture {
-    position: absolute;
+    vertical-align: bottom;
+    margin: 0;
     width:339px;
     height: 479px;
-    margin: 0;
-    padding: 34px 0px 0px 942px;
+    padding: 34px 0px 0px 13px;
     
 }
 .containtext {
@@ -170,4 +174,132 @@ h2{
     font-family: 'Figtree', sans-serif;
     font-size: 14px;
     line-height: 15.35px;
+}
+.topiclist{
+    width: 1602px;
+    height: 1500px;
+}
+.containlist{
+    width: 1602px;
+    height: 50px;
+}
+.curslist{
+    display: flex;
+    list-style-type: none;
+    margin: 14px 0px 0px 245px;
+    padding: 0;
+}
+.curslist li{
+    margin:0;
+    padding: 0px 15px 0px 0px;
+}
+.shaddow{
+    color: #979FAD;
+    font-family: font-family: 'Figtree', sans-serif;
+    font-size: 20px;
+}
+.apparent{
+    color:black;
+    font-family: font-family: 'Figtree', sans-serif;
+    font-size: 20px;
+}
+.themeblock{
+    height: 1565px;
+    margin: 0 auto;
+    text-align: center;
+}
+.blocks{
+    display:flex;
+    flex-direction: row;
+    width: 1110px;
+    height: 203px;
+    margin:19px 0px 0px 246px;
+    border: #F3F3F3 1px solid;
+    border-radius: 3px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.03);;
+}
+
+.numbers{
+    width: 148px;
+    height: 104px;
+    color:#E1E1E1;
+    font-size: 60px;
+    font-family:'Segoe UI', Bold;
+}
+.txt{
+    width: 950px;
+    height: 203px;
+}
+.txt, p, .theme{
+    margin: 0;
+    text-align: left;
+    white-space: normal;
+}
+.theme{
+    padding: 25px 0px 0px 0px;
+    color: #1092CB;
+    font-size: large;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+.age{
+    color: #979FAD;
+    margin: 0;
+    font-size: 16px;
+}
+.filling{
+    color: #696969;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.available{
+    color:black;
+    font-size: 12px;
+    padding-top: 14px;
+    font-family: Arial;
+}
+.date{
+    color: #FF8A00;
+    padding-left: 8px;
+    font-family: 'Roboto Slab', bold;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 1602px;
+    height: 350px;
+    background: #0099DD;
+    margin: 0;
+    padding: 0;
+}
+.emptiness{
+    width: 244px;
+    height: 350px;
+}
+.infolist{
+    width: 390px;
+    height: 350px;
+    margin: 0;
+    padding-top: 37px;
+    color: #ffff;
+}
+.footlist{
+    list-style-type:none;
+    margin: 0;
+}
+.name{
+    font-size: 24px;
+    font-family: 'Times New Roman', bold;
+    margin: 0;
+}
+.tire{
+    font-size: 30px;
+}
+.іnfo,a{
+    color: #ffff;
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', bold;
+    text-decoration: none;
 }
